@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void greet(); //declarations
+
+void greet()//definition
+{ 
+    printf("Welcomt to c programing.\n");
+}
+int main() //call
+{
+    greet();
+    greet();
+ return 0;
+}
+// remember in c the order can change eg declaratin,call,definition 
